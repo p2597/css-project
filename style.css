@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  #1F2937;
+}
+.card-section {
+  height: 644px;
+}
+.section-quote{ 
+  height: 464px;
+  background-color: #E5E7EB;
+  font-style: italic;
+ display: flex;
+ align-items: center;
+ font-size: 36px;
+ font-weight: lighter;
+}
+
+.section-quote h4{
+  text-align: right;
+}
+.container{
+  margin: 120px 163px;
+  text-align: center;
+}
+
+
+.cta-section {
+  height: 464px;
+  background-color: white;
+}
+
+.float-wrapper {
+  width: 977px;
+  height: 46px;
+  background: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center items vertically */
+  padding: 46px; /* Vertical and horizontal padding */
+  gap: 132px; /* Horizontal gap between items */
+  border-radius: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  position: absolute;
+}
+
+
+.text {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text h4 {
+  font-size: 18px;
+  text-align: left;
+  
+}
+
+
+.text p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200; /* Lighter font weight */
+  margin: 0;
+  text-align: left;
+  color: white; /* Ensure text color is white for readability */
+}
+
+  
+
+.hero-section{
+  background: #1F2937;
+  padding: 0px 143px;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.hero-right{
+  width: 50%;
+  flex-shrink: 1;
+ 
+}
+button.custom-btn {
+  background: linear-gradient(to top, #0061F9 0%, #003993 93%);
+  box-shadow: inset 0 6px 19px 0 rgba(12, 54, 120, 0.47);
+  padding: 13px 51px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px; /* Optional: adjust this value if you want rounded corners */
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Additional styling for hover, focus, active states can be added here */
+button.custom-btn:hover {
+  /* Example: slightly darken the gradient on hover */
+  background: linear-gradient(to right, #0051d6 0%, #002c72 93%);
+}
+
+button.custom-btn:focus {
+  outline: none; /* Remove default focus outline */
+  /* Add custom focus styles if needed */
+}
+.hero-left{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 400px;
+}
+.navbar {
+  height: 130px;
+  background: #1F2937;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  font-size: 18px;
+  justify-content: space-between;
+  padding: 0px 143px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 120px
+  }
+  
+.body {
+  flex: 1;
+  display: flex;
+}
+
+.card-wrapper {
+  padding: 48px;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+.footer {
+  height: 72px;
+  background: #1F2937;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.card {
+  width: 232px;
+  height: 311px;
+  background-color: #1F2937;
+  padding: 23px 16px 12px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  color: white;
+}
+
+.card img {
+  width: 200px;
+  height: 182px;
+  object-fit: cover;
+  border-radius: 8px; /* Optional: Add rounded corners to the image */
+}
+
+.card h4 {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0;
+  text-align: left;
+}
+
+.card p {
+  font-size: 10px;
+  font-weight: 400;
+  margin: 0;
+  text-align: left;
+}
